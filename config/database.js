@@ -1,6 +1,6 @@
 import { Sequelize } from "sequelize";
  
-const db = new Sequelize('apinodereact', 'root', '', {
+const db = new Sequelize('apinodeexpress', 'root', '', {
     host: "localhost",
     dialect: "mysql"
 });
